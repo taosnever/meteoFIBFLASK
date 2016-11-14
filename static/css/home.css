@@ -1,0 +1,19 @@
+body {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+    padding-bottom: 30px;
+}
+
+#map {
+    height: 500px;
+    width: auto;
+}
+
+.theme-showcase:not(.jumbotron) {
+    background-color: aliceblue;
+}
+
+.theme-showcase .jumbotron {
+    background-color: #ECECEC;
+}

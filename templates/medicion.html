@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Medición</title>
+
+    <!-- Bootstrap -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Stylesheets propias -->
+    <link href="static/css/medicion.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav pull-left">
+                    <li><a href="home.html">Home</a></li>
+                    <li class="active"><a href="#">Medición</a></li>
+                    <li><a href="estadisticas.html">Estadísticas</a></li>
+                </ul>
+                <ul class="nav navbar-nav pull-right">
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container theme-showcase" role="main">
+        
+        <div class="page-header">
+            <h1 id="hoy">Hoy</h1>
+            <p>Medición de las últimas horas:</p>
+        </div>
+        <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div id="horas" class="list-group">
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            
+        
+        <div class="page-header">
+            <h1>Esta semana</h1>
+            <p>Últimos datos de temperatura, humedad y presión atmosférica de los últimos 7 dias:</p>
+        </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th id="d1">Miércoles</th>
+                            <th id="d2">Jueves</th>
+                            <th id="d3">Viernes</th>
+                            <th id="d4">Sábado</th>
+                            <th id="d5">Domingo</th>
+                            <th id="d6">Lunes</th>
+                            <th id="d7">Martes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Temperatura</th>
+                            <td>20º</td>
+                            <td>18º</td>
+                            <td>22º</td>
+                            <td>25º</td>
+                            <td>17º</td>
+                            <td>18º</td>
+                            <td>20º</td>
+                        </tr>
+                        <tr>
+                            <th>Humedad</th>
+                            <td>60%</td>
+                            <td>65%</td>
+                            <td>69%</td>
+                            <td>70%</td>
+                            <td>61%</td>
+                            <td>63%</td>
+                            <td>60%</td>
+                        </tr>
+                        <tr>
+                            <th>Presión Atm</th>
+                            <td>1026.41 hPa</td>
+                            <td>1025.98 hPa</td>
+                            <td>1032.74 hPa</td>
+                            <td>1026.75 hPa</td>
+                            <td>1064.36 hPa</td>
+                            <td>1022.22 hPa</td>
+                            <td>1027.31 hPa</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+
+      
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="static/js/_day_change.js"></script>
+  </body>
+</html>

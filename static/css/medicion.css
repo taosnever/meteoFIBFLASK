@@ -1,0 +1,26 @@
+body {
+    
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+
+.theme-showcase {
+    background-color: aliceblue;
+}
+
+#d7 {
+    background-color: #BABABA;
+}
+
+#horas a.active {
+    background: #BABABA;
+    border-color: black;
+}
+
+#horas p {
+    vertical-align: middle;
+}
